@@ -1,5 +1,5 @@
 # reversi
-##　オセロの作成
+## オセロの作成
 
 VScodeでHTML,CSS,JSでの三つのファイルで作成。
 
