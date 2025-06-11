@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000;
+  background-color: green;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  position: relative;
+}
+
+.black, .white {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: auto;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.black { background-color: black; }
+.white { background-color: white; }
+
+#status {
+  margin-top: 10px;
+}
+
+#reset {
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
